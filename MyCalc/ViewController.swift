@@ -10,11 +10,19 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var priceField: UITextField!
-    
+    @IBAction func restart(_ segue: UIStoryboardSegue) {
+        priceField.text = "0"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let ViewController = segue.destination as! ResultViewController
+        if let price = Int(priceField.text!) {
+            ViewController.price = price
+        }
+            
+    }
     @IBAction func tap1Button(_ sender: Any) {
         //数字を末尾に追加する
         let value = priceField.text! + "1"
