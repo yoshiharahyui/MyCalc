@@ -16,6 +16,7 @@
 		1E6041F42C23E14500375791 /* MyCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6041F32C23E14500375791 /* MyCalcTests.swift */; };
 		1E6041FE2C23E14500375791 /* MyCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6041FD2C23E14500375791 /* MyCalcUITests.swift */; };
 		1E6042002C23E14500375791 /* MyCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6041FF2C23E14500375791 /* MyCalcUITestsLaunchTests.swift */; };
+		1E60420D2C241AFF00375791 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60420C2C241AFF00375791 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1E6041F92C23E14500375791 /* MyCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6041FD2C23E14500375791 /* MyCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalcUITests.swift; sourceTree = "<group>"; };
 		1E6041FF2C23E14500375791 /* MyCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E60420C2C241AFF00375791 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1E6041DE2C23E14300375791 /* SceneDelegate.swift */,
 				1E6041E02C23E14300375791 /* ViewController.swift */,
 				1E6041E22C23E14300375791 /* Main.storyboard */,
+				1E60420C2C241AFF00375791 /* ResultViewController.swift */,
 				1E6041E52C23E14500375791 /* Assets.xcassets */,
 				1E6041E72C23E14500375791 /* LaunchScreen.storyboard */,
 				1E6041EA2C23E14500375791 /* Info.plist */,
@@ -261,6 +264,7 @@
 				1E6041E12C23E14300375791 /* ViewController.swift in Sources */,
 				1E6041DD2C23E14300375791 /* AppDelegate.swift in Sources */,
 				1E6041DF2C23E14300375791 /* SceneDelegate.swift in Sources */,
+				1E60420D2C241AFF00375791 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
